@@ -1,0 +1,17 @@
+.roadmap {
+  background-color: #15043f;
+  color: white;
+}
+
+.roadmap h3 {
+  color: #dea719;
+  font-size: 0.8em;
+}
+
+.roadmap .explore {
+  background-color: #dea719;
+}
+
+.roadmap .explore:hover {
+  background-color: #cc960d;
+}

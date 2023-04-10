@@ -1,0 +1,14 @@
+.collection {
+  background-color: #15043f;
+  color: white;
+}
+
+.collection h3 {
+  color: #dea719;
+  font-size: 0.8em;
+}
+
+.collection h4 {
+  font-weight: bold;
+  margin: 10px 0;
+}

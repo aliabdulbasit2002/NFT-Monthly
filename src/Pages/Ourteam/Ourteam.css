@@ -1,0 +1,23 @@
+.ourteam {
+  background-color: #15043f;
+  color: white;
+}
+
+.ourteam h3 {
+  color: #dea719;
+  font-size: 0.8em;
+}
+
+.ourteam img {
+  border-radius: 50%;
+}
+
+.socials a {
+  background: linear-gradient(
+    103.72deg,
+    rgba(127, 27, 255, 0.35) 0%,
+    rgba(127, 27, 255, 0) 100%
+  );
+  border-radius: 10px;
+  padding: 8px 12px;
+}

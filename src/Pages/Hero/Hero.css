@@ -1,0 +1,28 @@
+.hero {
+  background-image: url("/src/assets/images/bg-img1.png");
+  background-color: #110828;
+  color: white;
+  min-height: calc(100vh - 66px);
+}
+
+.explore {
+  background-color: #7f1bff;
+  font-size: 0.7em;
+  position: relative;
+  padding: 15px 25px;
+  z-index: 1;
+}
+
+.explore:hover {
+  background-color: #510da9;
+  transition: 0.5s;
+}
+
+.explore-border {
+  position: absolute;
+  top: 23px;
+  left: 6px;
+  padding: 23px 56px;
+  border-radius: 5px;
+  border: 1px solid white;
+}

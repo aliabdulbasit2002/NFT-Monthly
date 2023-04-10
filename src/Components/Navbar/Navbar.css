@@ -1,0 +1,15 @@
+nav {
+  background-color: #110828;
+  color: white;
+}
+
+a {
+  color: white !important;
+}
+
+.discord {
+  background: transparent;
+  color: #dea719;
+  border: 1px solid #dea719;
+  font-size: 0.8em;
+}

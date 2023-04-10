@@ -1,0 +1,19 @@
+.experience {
+  background-color: #15043f;
+  color: white;
+}
+
+.experience h3 {
+  color: #dea719;
+  font-size: 0.8em;
+}
+
+.box {
+  background: linear-gradient(180deg, #7f1bff 0%, #7f1bff 100%);
+  border-radius: 50px;
+  width: 95%;
+}
+
+.experience .explore {
+  background-color: #dea719;
+}

@@ -1,0 +1,24 @@
+.introduce {
+  background-color: #15043f;
+  color: white;
+}
+
+.introduce h3 {
+  color: #dea719;
+  font-size: 0.8em;
+}
+
+.introduce h5 {
+  color: whitesmoke;
+  font-weight: 900;
+}
+
+.intro-card {
+  background: linear-gradient(
+    103.72deg,
+    rgba(127, 27, 255, 0.35) 0%,
+    rgba(127, 27, 255, 0) 100%
+  );
+  border-radius: 10px;
+  padding: 8px 18px;
+}
