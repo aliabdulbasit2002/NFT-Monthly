@@ -1,4 +1,8 @@
 import "../Introduce/Introduce.css";
+import introImg from "../../assets/images/paint.png";
+import introImg1 from "../../assets/images/image.png";
+import introImg2 from "../../assets/images/paint (2).png";
+import introImg3 from "../../assets/images/ring.png";
 
 const Introduce = () => {
   return (
@@ -13,7 +17,7 @@ const Introduce = () => {
             <div className="col-md-3 col-6 ">
               <div className="intro-card d-flex flex-column justify-content-center">
                 <img
-                  src="/src/assets/images/paint.png"
+                  src={introImg}
                   className="img-fluid mx-auto"
                   style={{ width: "80px" }}
                   alt="paint"
@@ -29,7 +33,7 @@ const Introduce = () => {
             <div className="col-md-3 col-6 ">
               <div className="intro-card d-flex flex-column justify-content-center">
                 <img
-                  src="/src/assets/images/image.png"
+                  src={introImg1}
                   className="img-fluid mx-auto"
                   style={{ width: "80px" }}
                   alt="paint"

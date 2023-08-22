@@ -1,4 +1,5 @@
 import "../Questions/Questions.css";
+import queImg from "../../assets/images/question.png";
 
 const Questions = () => {
   return (
@@ -6,12 +7,7 @@ const Questions = () => {
       <div className="container">
         <div className="row py-5">
           <div className="col-md-6 text-center d-flex justify-content-center">
-            <img
-              src="/src/assets/images/question.png"
-              className="img-fluid"
-              alt=""
-              width={350}
-            />
+            <img src={queImg} className="img-fluid" alt="" width={350} />
           </div>
           <div className="col-md-6 mt-5 mt-md-0">
             <h3 className="fw-semibold">POPULAR QUESTIONS</h3>

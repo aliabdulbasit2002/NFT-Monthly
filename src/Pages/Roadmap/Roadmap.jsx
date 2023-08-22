@@ -1,4 +1,5 @@
 import "../Roadmap/Roadmap.css";
+import roadImg from "../../assets/images/roadmap.png";
 
 const Roadmap = () => {
   return (
@@ -23,12 +24,7 @@ const Roadmap = () => {
             </div>
           </div>
           <div className="col-md-5 mt-5 mt-md-0">
-            <img
-              src="/src/assets/images/roadmap.png"
-              className="img-fluid"
-              alt=""
-              width={300}
-            />
+            <img src={roadImg} className="img-fluid" alt="" width={300} />
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import "../About/About.css";
+import aboutImg from "../../assets/images/about-img.png";
 
 const About = () => {
   return (
@@ -6,11 +7,7 @@ const About = () => {
       <div className="container">
         <div className="row px-3 py-4 align-items-center">
           <div className="col-md-5">
-            <img
-              src="/src/assets/images/about-img.png"
-              className="img-fluid"
-              alt="dummy"
-            />
+            <img src={aboutImg} className="img-fluid" alt="dummy" />
           </div>
           <div className="col-md-6 mt-5 mt-lg-0">
             <div className="ms-lg-5" style={{ width: "400px" }}>
