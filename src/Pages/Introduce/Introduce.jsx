@@ -49,7 +49,7 @@ const Introduce = () => {
             <div className="col-md-3 col-6  mt-3 mt-md-0">
               <div className="intro-card d-flex flex-column justify-content-center">
                 <img
-                  src="/src/assets/images/paint (2).png"
+                  src={introImg2}
                   className="img-fluid mx-auto"
                   style={{ width: "80px" }}
                   alt="paint"
@@ -65,7 +65,7 @@ const Introduce = () => {
             <div className="col-md-3 col-6  mt-3 mt-md-0">
               <div className="intro-card d-flex flex-column justify-content-center">
                 <img
-                  src="/src/assets/images/ring.png"
+                  src={introImg3}
                   className="img-fluid mx-auto"
                   style={{ width: "80px" }}
                   alt="paint"
