@@ -1,4 +1,5 @@
 import "../Hero/Hero.css";
+import heroImg from "../../assets/images/hero-img.png";
 
 const Hero = () => {
   return (
@@ -22,11 +23,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="col-md-6 py-4 py-md-0">
-            <img
-              src="/src/assets/images/hero-img.png"
-              alt=""
-              className="img-fluid"
-            />
+            <img src={heroImg} alt="" className="img-fluid" />
           </div>
         </div>
       </div>
